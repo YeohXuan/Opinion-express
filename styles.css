@@ -43,8 +43,9 @@ h4 {
 }
 input {
     font-family: 'Jost', 'Rubik', sans-serif;
-    width: 400px;
     text-align: center;
+    max-width: 400px;
+    width: 100%;
     background-color: #171616cd;   
     box-sizing: border-box;
     height: 50px;
@@ -57,7 +58,8 @@ textarea {
     font-family: 'Jost', 'Rubik', sans-serif;
     box-sizing: border-box;
     display: block;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     height: 170px;
     border: 1px solid #c4a88a;
     border-radius: 8px;
