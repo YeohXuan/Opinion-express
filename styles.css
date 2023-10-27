@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Josefin+Sans:wght@300;400&family=Jost&family=Karla&family=Poppins&family=Rubik:wght@300&display=swap');
+
+body {
+    font-family: 'Josefin Sans', 'Jost', 'Rubik', sans-serif;
+    background-color: #000000dc;
+    user-select: none;
+}
+#main {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 90px;
+    height: 90px;
+}
+h1 {
+    color: rgb(204, 204, 204);
+    font-weight: 300;
+    font-size: 40px;
+}
+h2 {
+    color: rgb(204, 204, 204);
+    font-weight: 300;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 0 16px;
+    font-size: 30px;
+}
+h4 {
+    margin: 3px;
+    font-family: 'Karla';
+    font-weight: bold;
+    color:#dfa594;
+    font-size: 1.1em;
+    text-align: end;
+}
+#upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+input {
+    font-family: 'Jost', 'Rubik', sans-serif;
+    width: 400px;
+    text-align: center;
+    background-color: #171616cd;   
+    box-sizing: border-box;
+    height: 50px;
+    border: 1px solid #c4a88a;
+    font-size: 19px;
+    border-radius: 8px;
+    color: white;
+}
+textarea {
+    font-family: 'Jost', 'Rubik', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    width: 400px;
+    height: 170px;
+    border: 1px solid #c4a88a;
+    border-radius: 8px;
+    background-color: #171616cd;
+    margin: auto;
+    padding: 12px;
+    resize: none;
+    color: white;
+    font-size: 19px;
+}
+button {
+    font-family: 'Josefin Sans', 'Jost', 'Rubik', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 12px;
+    color: #db886f;
+    background-color: #171616cd;
+    width: 400px;
+    box-shadow: 0px 0px 10px #db886f;
+    border: 1px solid #c4a88a;
+    border-radius: 8px;
+    padding: 10px;
+    animation: all 0.3s;
+    animation: glow 1.2s ease-in-out infinite alternate;
+}
+button:hover {
+    cursor: pointer;
+}
+@keyframes glow {
+    from {
+      box-shadow: 0 0 10px #db886f;
+    }
+    to {
+      box-shadow: 0 0 25px #db886f;
+    }
+}
+ul {
+    margin-top: 0;
+    font-size: 12px;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    list-style-type: none; 
+    padding-left: 0;
+    color: rgb(204, 204, 204);
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+@media only screen and (max-width: 600px) {
+    ul {
+        flex-direction: column;
+    }
+}
+ul li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    user-select: text;
+    background-color: #171616cd;
+    padding: 15px;
+    border: 2px solid #db886f;
+    border-radius: 8px;
+    color: rgb(204, 204, 204);
+    box-shadow: 10px 10px#db886f;
+    outline: 4px solid #171616cd;
+    flex-grow: 1;
+    min-width: 240px;
+    max-width: 550px;
+    font-size: 20px;
+}
+#text {
+    margin: 24px;
+    font-size: 2em;
+}
+h3 {
+    margin: 0;
+    margin-bottom: 2px;
+    color: #dfa594;
+    font-size: 26px;
+}
