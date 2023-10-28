@@ -5,12 +5,6 @@ body {
     background-color: #000000dc;
     user-select: none;
 }
-#main {
-    margin: 40px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 img {
     width: 90px;
     height: 90px;
@@ -26,6 +20,13 @@ h2 {
     border-bottom: 2px solid rgb(204, 204, 204);
     padding: 0 16px;
     font-size: 30px;
+    text-align: center;
+}
+h3 {
+    margin: 0;
+    margin-bottom: 2px;
+    color: #dfa594;
+    font-size: 26px;
 }
 h4 {
     margin: 3px;
@@ -45,11 +46,11 @@ input {
     font-family: 'Jost', 'Rubik', sans-serif;
     text-align: center;
     max-width: 400px;
-    width: 100%;
+    width: 98%;
     background-color: #171616cd;   
     box-sizing: border-box;
     height: 50px;
-    border: 1px solid #c4a88a;
+    border: 1.6px solid #c4a88a;
     font-size: 19px;
     border-radius: 8px;
     color: white;
@@ -59,9 +60,9 @@ textarea {
     box-sizing: border-box;
     display: block;
     max-width: 400px;
-    width: 100%;
+    width: 98%;
     height: 170px;
-    border: 1px solid #c4a88a;
+    border: 1.6px solid #c4a88a;
     border-radius: 8px;
     background-color: #171616cd;
     margin: auto;
@@ -75,11 +76,13 @@ button {
     font-size: 26px;
     font-weight: 700;
     margin-top: 12px;
+    box-sizing: border-box;
     color: #db886f;
     background-color: #171616cd;
-    width: 400px;
+    max-width: 400px;
+    width: 98%;
     box-shadow: 0px 0px 10px #db886f;
-    border: 1px solid #c4a88a;
+    border: 1.6px solid #c4a88a;
     border-radius: 8px;
     padding: 10px;
     animation: all 0.3s;
@@ -96,6 +99,11 @@ button:hover {
       box-shadow: 0 0 25px #db886f;
     }
 }
+#lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 ul {
     margin-top: 0;
     font-size: 12px;
@@ -107,7 +115,7 @@ ul {
     display: flex;
     flex-direction: row;
     max-width: 1100px;
-    width: 100%;
+    width: 99%;
     justify-content: center;
     flex-wrap: wrap;
     gap: 25px;
@@ -120,7 +128,6 @@ ul {
 ul li {
     display: flex;
     flex-direction: column;
-    position: relative;
     user-select: text;
     background-color: #171616cd;
     padding: 15px;
@@ -137,10 +144,4 @@ ul li {
 #text {
     margin: 24px;
     font-size: 2em;
-}
-h3 {
-    margin: 0;
-    margin-bottom: 2px;
-    color: #dfa594;
-    font-size: 26px;
 }
